@@ -1,0 +1,26 @@
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\bin\Release\Nozom Office.exe.config
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Interop.MediaPlayer.dll
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Interop.WMPLib.dll
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom Office.csproj.ResolveComReference.cache
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\bin\Release\Nozom Office.exe
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\bin\Release\Nozom Office.pdb
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.admin.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.allstores.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.chat.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.Form1.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.load.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.login.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.Properties.Resources.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.soliderdata.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store2.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom Office.csproj.GenerateResource.Cache
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom Office.exe
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom Office.pdb
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.loadchat.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store11.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store14.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store15.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store3.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store5.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom_Office.store6.resources
+C:\Users\SOFT\Documents\Visual Studio 2012\Projects\Nozom Office\Nozom Office\obj\Release\Nozom Office.csprojResolveAssemblyReference.cache

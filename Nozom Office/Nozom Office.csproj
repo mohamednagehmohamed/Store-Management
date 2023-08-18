@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16D24916-A4F7-473F-B0BA-2046DB75223C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nozom_Office</RootNamespace>
+    <AssemblyName>Nozom Office</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SOFT\Desktop\MedoSetupNozom\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>مكتب النظم</ProductName>
+    <PublisherName>Mohamed Nageh</PublisherName>
+    <SuiteName>Mohamed Nageh</SuiteName>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4904E45ACB6950405CAB18BC920614300ADFA297</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Nozom Office_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Old-Boss.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="allstores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="allstores.Designer.cs">
+      <DependentUpon>allstores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chat.Designer.cs">
+      <DependentUpon>chat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsSMS.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="load.Designer.cs">
+      <DependentUpon>load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadchat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadchat.Designer.cs">
+      <DependentUpon>loadchat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sendsms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendsms.Designer.cs">
+      <DependentUpon>sendsms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortMessage.cs" />
+    <Compile Include="ShortMessageCollection.cs" />
+    <Compile Include="soliderdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="soliderdata.Designer.cs">
+      <DependentUpon>soliderdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store11.Designer.cs">
+      <DependentUpon>store11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store14.Designer.cs">
+      <DependentUpon>store14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store15.Designer.cs">
+      <DependentUpon>store15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store2.Designer.cs">
+      <DependentUpon>store2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store3.Designer.cs">
+      <DependentUpon>store3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store5.Designer.cs">
+      <DependentUpon>store5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="store6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="store6.Designer.cs">
+      <DependentUpon>store6.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allstores.resx">
+      <DependentUpon>allstores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chat.resx">
+      <DependentUpon>chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="load.resx">
+      <DependentUpon>load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadchat.resx">
+      <DependentUpon>loadchat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sendsms.resx">
+      <DependentUpon>sendsms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soliderdata.resx">
+      <DependentUpon>soliderdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store11.resx">
+      <DependentUpon>store11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store14.resx">
+      <DependentUpon>store14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store15.resx">
+      <DependentUpon>store15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store2.resx">
+      <DependentUpon>store2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store3.resx">
+      <DependentUpon>store3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store5.resx">
+      <DependentUpon>store5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="store6.resx">
+      <DependentUpon>store6.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Nozom Office_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-store-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-in-progress-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big-data-path.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chat-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f8be05145991708518e62cd4a84dfde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1ce52173426833.5c08f56353039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile_loader_by_gleb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-timer-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-coming-soon-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\000-Best-Programming-Fonts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\nozommedodb.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\nozommedodb_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Old-Boss.ico" />
+    <None Include="Resources\icons8-sms-53.png" />
+    <Content Include="Resources\4chan Timer.mp3" />
+    <Content Include="Resources\Iphone Timer.mp3" />
+    <Content Include="Resources\just-relax-11157.mp3" />
+    <Content Include="Resources\mixkit-doorbell-single-press-333.wav" />
+    <Content Include="Resources\password-entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
